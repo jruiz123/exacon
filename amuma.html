@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Amuma</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/color.css">
+	</head>
+	<body>
+		<a href="index.html" id="nav" class="nav">
+			<img src="img/logo_black.png" alt="exacon">
+		</a>
+		<div id="nav_p" class="nav_p">
+			<img src="img/menu_icon_1.png" alt="exacon">
+		</div>
+		<div id= "nav_o" class="nav_o">
+			<span id="close" class="close font_s-50 font_f-thin">x</span>
+			<br>
+			<ul>
+				<li class="font_f-Light">ResortHomes</li>
+				<li class="font_f-thin active">Amuma</li>
+				<li class="font_f-thin link"><a href="#mugna">Mugna</a></li>
+				<li class="font_f-thin link"><a href="#sadya">Sadya</a></li>
+				<li class="font_f-thin">&nbsp;</li>
+				<li class="font_f-Light">Urbanscapes</li>
+				<li class="font_f-thin link"><a href="#ShcoenPark">ShcoenPark</a></li>
+				<li class="font_f-thin link"><a href="#TheKrib">TheKrib</a></li>
+				<li class="font_f-thin link"><a href="#Socialyf">Socialyf</a></li>
+				<br>
+				<br>
+				<br>
+				<li class="font_f-thin link"><a href="#faqs">FAQS</a></li>
+				<li class="font_f-thin">We Are EXACON</li>
+				<li class="font_f-thin">Let's Build!</li>
+
+			</ul>
+		</div>
+
+		<div class="gallery">
+			<div class="gallery_dis"></div>
+			<div class="gallery_thumb"></div>
+		</div>
+
+		<div class="footer txt_black bg_grey font_f-thin"><div>Copyright 2019. Exacon by Exaltis Corporation. Cebu City PH 6000</div></div>
+	</body>
+
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript">
+		$('#nav_p').click(function(){
+				$('#nav').fadeOut();
+				$('#nav_p').fadeOut();
+				$('#nav_o').slideDown();
+			});
+		$('#close').click(function(){
+				$('#nav').fadeIn('fast');
+				$('#nav_p').fadeIn('fast');
+				$('#nav_o').slideUp('fast');
+			});
+	</script>
+</html>

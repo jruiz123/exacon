@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>EXACON</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/color.css">
+	</head>
+	<body>
+		<a href="index.html" id="nav" class="nav">
+			<img src="img/logo_black.png" alt="exacon">
+		</a>
+		<div id="nav_p" class="nav_p">
+			<img src="img/menu_icon_1.png" alt="exacon">
+		</div>
+		<div id= "nav_o" class="nav_o">
+			<span id="close" class="close font_s-50 font_f-thin">x</span>
+			<br>
+			<ul>
+				<li class="font_f-Light">ResortHomes</li>
+				<li class="font_f-thin link"><a href="amuma.html">Amuma</a></li>
+				<li class="font_f-thin link"><a href="#mugna">Mugna</a></li>
+				<li class="font_f-thin link"><a href="#sadya">Sadya</a></li>
+				<li class="font_f-thin">&nbsp;</li>
+				<li class="font_f-Light">Urbanscapes</li>
+				<li class="font_f-thin link"><a href="#ShcoenPark">ShcoenPark</a></li>
+				<li class="font_f-thin link"><a href="#TheKrib">TheKrib</a></li>
+				<li class="font_f-thin link"><a href="#Socialyf">Socialyf</a></li>
+				<br>
+				<br>
+				<br>
+				<li class="font_f-thin link"><a href="#faqs">FAQS</a></li>
+				<li class="font_f-thin">We Are EXACON</li>
+				<li class="font_f-thin">Let's Build!</li>
+
+			</ul>
+		</div>
+
+		<div id="section_1" class="section bg_1">
+			<div class="skew bg_dark-gold">
+				<div class="box center">
+					<div class="middle">
+						<p class="bx-exacon"><span class="txt_exacon-blue">exa</span>con</p>
+						<p class="bx-title">ResortHomes</p>
+						<p class="bx-caption-1 txt_exacon-blue">Relaxing & healing homes.</p>
+						<p class="bx-caption-2 txt_exacon-blue">Everything is a holiday</p>
+						<br><br>
+						<a href="amuma.html" class="btn btn-white">More Info</a><br><br><br>
+						<a href="" class="btn btn-white">Lets Build!</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="section_2" class="section bg_2">
+			<div class="skew bg_exacon-blue">
+				<div class="box center">
+					<div class="middle">
+						<p class="bx-exacon"><span class="txt_gold">exa</span>con</p>
+						<p class="bx-title">Urbanscapes</p>
+						<p class="bx-caption-1">Vertical homes for</p>
+						<p class="bx-caption-1">modern city living.</p>
+						<p class="bx-caption-2">Your pride Your gain</p>
+						<br><br>
+						<a href="#" class="btn btn-gold txt_gold">More Info</a><br><br><br>
+						<a href="" class="btn btn-gold txt_gold">Lets Build!</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="section_3" class="section bg_3">
+			<div class="container font_f-thin">
+				<p class="clear_m-bottom font_s-50">Resort Homes</p>
+				<p class="clear_m font_s-20">Relaxing & healing homes for personal & business</p>
+				<br>
+				<p>Choose from our house models and we do the hassles from design to build to maintenance.</p>
+				<div class="card_holder center">
+					<a class="card bg_dark-gold">
+						<div class="card_content">
+							<h1><span class="txt_black">Amuma</span>310</h1>
+							<p>A home whose heart is the pool.</p>
+						</div>
+					</a>
+					<a class="card bg_gold">
+						<div class="card_content">
+							<h1><span class="txt_black">Mugna</span>550</h1>
+							<p>The Exclusive Healing Home.</p>
+						</div>
+					</a>
+					<a class="card bg_dark-gold">
+						<div class="card_content">
+							<h1><span class="txt_black">Sadya</span>1165</h1>
+							<p>Your Waterpark Home.</p>
+						</div>
+					</a>
+				</div>
+				<div style="width: 100%;">
+					<a href="" class="btn-grey bg_grey txt_black">NEW DESIGN: Customize For Me</a>
+				</div>
+			</div>
+		</div>
+		<div class="footer txt_black bg_grey font_f-thin"><div>Copyright 2019. Exacon by Exaltis Corporation. Cebu City PH 6000</div></div>
+	</body>
+
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript">
+		$('#nav_p').click(function(){
+				$('#nav').fadeOut();
+				$('#nav_p').fadeOut();
+				$('#nav_o').slideDown();
+			});
+		$('#close').click(function(){
+				$('#nav').fadeIn('fast');
+				$('#nav_p').fadeIn('fast');
+				$('#nav_o').slideUp('fast');
+			});
+	</script>
+</html>

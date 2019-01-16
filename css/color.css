@@ -1,0 +1,32 @@
+/* Color */
+.bg_dark-gold {
+	background: #b08f26;
+}
+
+.bg_gold {
+	background: #d3ae36;
+}
+
+.bg_grey {
+	background: #d9d9d9;
+}
+
+.bg_exacon-blue {
+	background: #102036;
+}
+
+.txt_exacon-blue {
+	color: #1c385e;
+}
+
+.txt_gold {
+	color: #d3ae36;
+}
+
+.txt_white {
+	color: #ffffff;
+}
+
+.txt_black {
+	color: #000000;
+}

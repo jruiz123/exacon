@@ -1,0 +1,1 @@
+$('.top-content').backstretch("../img/Mugna Exterior.jpg");
